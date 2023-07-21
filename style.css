@@ -1,0 +1,157 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    min-width: 350px;
+}
+
+
+.container1{
+    flex-direction: column;
+    height: 600px;
+    justify-content: center;
+    justify-items: center;
+    gap: 10px;
+}
+
+
+.title-text{
+    display: inline-flex;
+    justify-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.title{
+    flex-basis: 200px;
+    font-size: 2rem;
+    color: rgb(3, 3, 148);
+    align-items: flex-end;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 0px;
+}
+
+
+.sub-title{
+    font-size: 1.5rem;
+    color: rgb(42, 42, 148);
+    height: 100px;
+    align-items: flex-start;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
+}
+
+
+.iconbox{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.icons{
+    height: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top:30px;
+}
+
+
+.top-section{
+    background-color: rgb(111, 227, 239);
+}
+
+
+.container2{
+    height: 300px;
+    justify-content: flex-start;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+.prof-img{
+    border-radius: 50%;
+    border-color: rgb(111, 227, 239);
+    border-style: groove;
+    border-width: 15px;
+
+}
+
+.profile-info{
+    color: rgb(42, 42, 148);
+    font-size: 1.3rem;
+}
+
+.body-containers{
+    margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.all-paras{
+ color: rgb(41, 45, 80);
+ font-size: 1rem;
+
+}
+
+.sub-heading{
+    color: rgb(34, 34, 115);
+    text-align: center;
+}
+
+
+.centered-points{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.skill-list{
+    flex-direction: row;
+    display: inline-flex;
+    flex-wrap: wrap;
+    padding-top: 10px;
+    justify-content: center;
+    gap: 20px;
+}
+
+.skill-button{
+    border-radius: 10px;
+    background-color: aqua;
+    padding: 10px;
+    padding-left:15px;
+    padding-right: 15px;
+    border: none;
+}
+
+#footer-section{
+    background-color: rgb(111, 227, 239);
+}
+
+.footeritems{
+    flex-direction: row;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+}
+.footerlinks{
+    padding:10px;
+    text-decoration: none;
+    color: black;
+}
+
+.contact-button{
+    color: rgb(41, 45, 80);
+    text-decoration: none;
+    border-color: black;
+    border-width: 1px;
+    background-color: aqua;
+    padding: 10px;
+    padding-left:15px;
+    padding-right: 15px;
+}
